@@ -102,11 +102,12 @@ console.log(`Reverse ordered my favorite foods: ${foodArray}.`);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
-let text = foodArray.join( " and ");
-console.log(`Adding words to my string ${foodArray}.`);
+console.log(`Adding words to my string ${foodArray.join(" and")}.`);
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+const newArray = foodArray.concat (animalArray);
+console.log(newArray);
